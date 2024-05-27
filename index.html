@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Test</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-wrapper">
+            <section>
+                <div class="logo">Loremipsum.<span class="accent">net</span></div>
+            </section>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <nav class="menu">
+                <a href="" class="menu-item accent">Бизнес</a>
+                <a href="" class="menu-item">О нас</a>
+                <a href="" class="menu-item">Цены</a>
+                <a href="" class="menu-item">Оформить заказ</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="heading-section">
+            <div class="heading-content">
+                <h1><span class="accent">Lorem ipsum</span> dolor sit <br> ametconsectetur <span class="accent">adipiscing</span></h1>
+                <div class="advantages">
+                    <div class="advantages-item title">At vero eos et accusamus et iusto odio dignissimos ducimus!</div>
+                    <div class="advantages-item"> - Totam rem aperiam eaque ipsa</div>
+                    <div class="advantages-item"> - Sit voluptatem accusantium doloremque laudantium</div>
+                    <div class="advantages-item"> - Sed ut perspiciatis, unde omnis iste natus error</div>
+                </div>
+                <div class="button-wrapper">
+                    <button class="btn primary">Заказать</button>
+                    <button class="btn secondary">Подробнее</button>
+                </div>
+            </div>
+        </section>
+        <section class="order-section">
+            <div class="order-wrapper">
+                <h2>Оформление <span class="accent">заказа</span></h2>
+                <div class="hint">Перед заполнением формы ознакомьтесь с нашей схемой работы!</div>
+                <div class="dot-line"></div>
+                <div class="order-stages-wrapper">
+                    <div class="order-stage">
+                        <div class="order-image-wrapper">
+                            <img class="order-stage-img" src="./src/img/lupe.svg" alt="">
+                        </div>
+                        <div class="order-stage-text">Lorem ipsum dolor sit amet</div>
+                    </div>
+                    <div class="order-stage">
+                        <div class="order-image-wrapper">
+                            <img class="order-stage-img" src="./src/img/percent.svg" alt="">
+                        </div>
+                        <div class="order-stage-text">Сonsecteturadipiscing elit</div>
+                    </div>
+                    <div class="order-stage">
+                        <div class="order-image-wrapper">
+                            <img class="order-stage-img" src="./src/img/Subtract.svg" alt="">
+                        </div>
+                        <div class="order-stage-text">Sed do eiusmod tempor</div>
+                    </div>
+                    <div class="order-stage">
+                        <div class="order-image-wrapper">
+                            <img class="order-stage-img" src="./src/img/mail.svg" alt="">
+                        </div>
+                        <div class="order-stage-text">Esse cillum dolore eu fugiat</div>
+                    </div>
+                    <div class="order-stage">
+                        <div class="order-image-wrapper">
+                            <img class="order-stage-img" src="./src/img/banknote.svg" alt="">
+                        </div>
+                        <div class="order-stage-text">Excepteur sint occaecat <br> cupidatat non proident</div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-wrapper">
+                <form class="inputs-wrapper" action="#">
+                    <select class="form-item" name="system-type" id="">
+                        <option value="">Выберите тип системы</option>
+                        <option value="type1">Тип 1</option>
+                        <option value="type2">Тип 2</option>
+                    </select>
+                    <input class="form-item" name="e-mail" type="text" value="Ваш e-mail">
+                    <input class="form-item" name="name" type="text" value="Ваше имя">
+                    <div class="form-item slider-wrapper" >
+                        <div class="slider-data">
+                            <div class="slider-text">Sed ut perspiciatis, unde omnis iste natus</div>
+                            <div id="range-val" class="slider-value">75%</div>
+                        </div>
+                        <div class="range">
+                            <input id="range" type="range" name="range" min="0" max="100" value="75" />
+                        </div>
+                    </div>
+                    <label class="file-wrapper form-item">
+                        <input type="file" name="file">
+                        <span class="input-file-btn"><img src="./src/img/doc.svg" alt=""> Прикрепить файл</span>
+                    </label>
+                </form>
+                <button class="form-btn btn primary" type="submit">Отправить</button>
+            </div>
+        </section>
+        <section class="img-slider">
+            <h2>Отзывы</h2>
+            <div class="img-slider-wrapper">
+                <button id="backBtn" class="slider-back blocked"><img class="arrow-img" src="./src/img/arrow-l.svg" alt=""></button>
+                <div class="slider">
+                    <div id="slider" class="slider-slide">
+                        <div class="slider-item">
+                            <img class="slider-img" src="./src/img/user.svg" alt="">
+                            <div class="slider-comment">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, delectus distinctio ducimus earum excepturi sequi.
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <img class="slider-img" src="./src/img/user.svg" alt="">
+                            <div class="slider-comment">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, delectus distinctio ducimus earum excepturi sequi.
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <img class="slider-img" src="./src/img/user.svg" alt="">
+                            <div class="slider-comment">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, delectus distinctio ducimus earum excepturi sequi.
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <img class="slider-img" src="./src/img/user.svg" alt="">
+                            <div class="slider-comment">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, delectus distinctio ducimus earum excepturi sequi.
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <img class="slider-img" src="./src/img/user.svg" alt="">
+                            <div class="slider-comment">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, delectus distinctio ducimus earum excepturi sequi.
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <img class="slider-img" src="./src/img/user.svg" alt="">
+                            <div class="slider-comment">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, delectus distinctio ducimus earum excepturi sequi.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="nextBtn" class="slider-next"><img class="arrow-img" src="./src/img/arrow-r.svg" alt=""></button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-inner">
+            <section class="company">
+                <div>©2018 «LOREMIPSUM.NET» Все права защищены</div>
+            </section>
+            <div class="footer-sep"></div>
+            <section class="pay-options">
+                <div class="pay-option">
+                    <img
+                            class="pay-image"
+                            src="./src/img/qivi.svg"
+                            alt=""
+                    >
+                    <div class="pay-service">
+                        QIVI wallet
+                    </div>
+                </div>
+                <div class="pay-option">
+                    <img
+                            class="pay-image"
+                            src="./src/img/yamoney.svg"
+                            alt=""
+                    >
+                    <div class="pay-service">
+                        Yandex Money
+                    </div>
+                </div>
+                <div class="pay-option">
+                    <img
+                            class="pay-image"
+                            src="./src/img/webmoney.svg"
+                            alt=""
+                    >
+                    <div class="pay-service">
+                        Web Money
+                    </div>
+                </div>
+            </section>
+            <div class="footer-sep"></div>
+            <section class="contacts">
+                <div class="contact">
+                    <img
+                            class="contact-img"
+                            src="./src/img/contact-mail.svg"
+                            alt=""
+                    >
+                    <a href="#" class="contact-name">
+                        info@ipsum228.com
+                    </a>
+                </div>
+                <div class="contact">
+                    <img
+                            class="contact-img"
+                            src="./src/img/В.svg"
+                            alt=""
+                    >
+                    <a href="#" class="contact-name">
+                        Мы вконтакте
+                    </a>
+                </div>
+            </section>
+        </div>
+    </footer>
+<script src="js/input.js"></script>
+<script src="js/slider.js"></script>
+</body>
+</html>
